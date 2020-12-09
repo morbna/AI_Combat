@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Actor.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Grenade.cpp">
+      <Filter>Entities\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Entities\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="logic.cpp" />
+    <ClCompile Include="Node.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthBox.cpp">
+      <Filter>Entities\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="AmmoBox.cpp">
+      <Filter>Entities\objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="const.h" />
+    <ClInclude Include="Actor.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Entities\abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingEntity.h">
+      <Filter>Entities\abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="AmmoBox.h">
+      <Filter>Entities\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthBox.h">
+      <Filter>Entities\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Entities\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Grenade.h">
+      <Filter>Entities\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="LootableBox.h">
+      <Filter>Entities\abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="logic.h" />
+    <ClInclude Include="Node.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="glut.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{903e95c7-199d-42a0-8186-7d2d0a65fac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\abstract">
+      <UniqueIdentifier>{02bf0fd7-1c3e-4191-9beb-9de9161103b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\objects">
+      <UniqueIdentifier>{8a922ceb-a394-4521-abeb-5c6ddb385759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{a2084df2-1ee2-425b-b375-96ef135d165b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Projectiles">
+      <UniqueIdentifier>{e309d511-c880-4643-9fff-59c8a2ea4875}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
